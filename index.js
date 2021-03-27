@@ -67,6 +67,4 @@ app.get('/', (req, res) => {
 
 //  listen
 
-app.listen(process.env.port || port, (req, res) => {
-    res.send('<h1> Server Runinng ...');
-});
+app.listen(process.env.PORT || port);
